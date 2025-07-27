@@ -9,12 +9,12 @@ module.exports = {
     // ==============================
     //          SESSION
     // ==============================
-    SESSION_ID: process.env.SESSION_ID || "",
+    SESSION_ID: process.env.SESSION_ID || "HansTz&C9oU1TRb#f4izyYlU6LsclXV4Iy91SEVnGrv7gdcp37dcIyUmnw4",
 
     // ==============================
     //           OWNER
     // ==============================
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "",
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "50940210141",
     OWNER_NAME: process.env.OWNER_NAME || "HansTech",
     DEV: process.env.DEV || "255614195217",
 
@@ -28,7 +28,7 @@ module.exports = {
     //            MODE
     // ==============================
     MODE: process.env.MODE || "public",
-    PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
+    PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
     ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
 
     // ==============================
@@ -40,8 +40,8 @@ module.exports = {
     // ==============================
     //          MESSAGES
     // ==============================
-    ANTI_DELETE: process.env.ANTI_DELETE || "true",
-    ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "some",
+    ANTI_DELETE: process.env.ANTI_DELETE || "false",
+    ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "false",
     READ_MESSAGE: process.env.READ_MESSAGE || "false",
     AUTO_REACT: process.env.AUTO_REACT || "false",
     AUTO_REPLY: process.env.AUTO_REPLY || "false",
@@ -63,9 +63,9 @@ module.exports = {
     // ==============================
     //          STATUS
     // ==============================
-    AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
+    AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "false",
     AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
-    AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
+    AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false",
     AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY 𝐕𝐎𝐑𝐓𝐄𝐗-𝐗𝐌𝐃*",
     
     // ==============================
@@ -74,7 +74,7 @@ module.exports = {
     MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/di5kdx.jpg",
     PREFIX: process.env.PREFIX || ".",
     BOT_NAME: process.env.BOT_NAME || "𝐕𝐎𝐑𝐓𝐄𝐗-𝐗𝐌𝐃",
-    STICKER_NAME: process.env.STICKER_NAME || "𝐕𝐎𝐑𝐓𝐄𝐗-𝐗𝐌𝐃",
+    STICKER_NAME: process.env.STICKER_NAME || "𝐃@GMA",
     ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/di5kdx.jpg",
     LIVE_MSG: process.env.LIVE_MSG || "> 𝐕𝐎𝐑𝐓𝐄𝐗-𝐗𝐌𝐃⚡ IS ALIVE",
     DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ HansTech*",
@@ -88,7 +88,7 @@ module.exports = {
     // ==============================
     //          PRIVACY
     // ==============================
-    ANTI_VV: process.env.ANTI_VV || "true",
+    ANTI_VV: process.env.ANTI_VV || "false",
 
     // ==============================
     //         STICKER
